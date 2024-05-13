@@ -26,6 +26,7 @@
       "description": "example description"
     }
   },
+  "omnibox": { "keyword" : "test" },
 
   "permissions": [
     "sidePanel", "contextMenus", "notifications",

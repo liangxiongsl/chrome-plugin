@@ -1,5 +1,5 @@
 
-// (0) 初始化
+
 chrome.runtime.onInstalled.addListener((details)=>{
     // (1) 后端
     // ===== 消息
@@ -13,7 +13,7 @@ chrome.runtime.onInstalled.addListener((details)=>{
         console.log('received a UserScript message')
     })
 
-    // (2) 前端
+    // (2) 前端（内置 ui）
     // ===== commands 命令
     chrome.commands.onCommand.addListener((command, tab)=>{
         switch (command){
