@@ -1,2 +1,1 @@
-let el = (q)=>document.querySelector(q)
-
+import{_ as n,c as p}from"../../assets/style-BMOJxu1q.js";const r={};function a(e,t){return" side panel "}const d=n(r,[["render",a]]);let o=(e,t)=>{let c=document.createElement(e);t(c),document.body.appendChild(c)};o("div",e=>e.id="app");p(d).mount("#app");
