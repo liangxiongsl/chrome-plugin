@@ -1,7 +1,10 @@
-# Vue 3 + Vite
+`chrome plugin` 脚手架的主要依赖：
+```bash
+# vue
+npm i -S vue
+# 构建工具 => vite, @vitejs/plugin-vue, rollup-plugin-copy
+npm i -D vite @vitejs/plugin-vue rollup-plugin-copy
+# chrome 类型检查
+npm i -D @types/chrome
+```
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
