@@ -1,1 +1,0 @@
-import{_ as p,c as n}from"../../assets/style-BMOJxu1q.js";const r={};function o(e,t){return" popup "}const a=p(r,[["render",o]]);let d=(e,t)=>{let c=document.createElement(e);t(c),document.body.appendChild(c)};d("div",e=>e.id="app");n(a).mount("#app");
