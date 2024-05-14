@@ -1,0 +1,1 @@
+import{_ as n,c as p}from"../../assets/style-BMOJxu1q.js";const r={};function o(e,t){return" content script "}const a=n(r,[["render",o]]);let d=(e,t)=>{let c=document.createElement(e);t(c),document.body.appendChild(c)};d("div",e=>e.id="app");p(a).mount("#app");
